@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d044c6a-a331-49fc-8c6a-cd70838da096" name="Changes" comment="some tests, not finished" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;xzutv&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yrgohrm/ts_library.git",
+    "accountId": "6849ad25-98c6-4852-b527-50deb0681e68"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3561VIBuGpXDmXfcLCFSzCUzmCy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.UserDaoTest.getExistingLoginInfo.executor": "Run",
+    "JUnit.UserDaoTest.getNonExistingLoginInfo.executor": "Run",
+    "JUnit.UserDaoTest.getNonExistingUser.executor": "Run",
+    "JUnit.UserDaoTest.getWithNullValue.executor": "Run",
+    "JUnit.UserServiceTest.correctLogin.executor": "Run",
+    "JUnit.UsernameTest.correctUsername.executor": "Run",
+    "JUnit.UsernameTest.emptyUsername.executor": "Run",
+    "JUnit.UsernameTest.executor": "Run",
+    "JUnit.UsernameTest.incorrectUsername (1).executor": "Run",
+    "JUnit.UsernameTest.incorrectUsername.executor": "Run",
+    "JUnit.UsernameTest.invalidUsername.executor": "Run",
+    "JUnit.UsernameTest.nullUsername.executor": "Run",
+    "JUnit.UsernameTest.regexUsername.executor": "Run",
+    "JUnit.UsernameTest.validUsername_checkRegex.executor": "Run",
+    "JUnit.UtilsTest.OnlyLettersAndWhiteSpace_removeHyphen_BUT_Keep_Whitespace.executor": "Run",
+    "JUnit.UtilsTest.cleanAndUnLeet_specialKey.executor": "Run",
+    "JUnit.UtilsTest.cleanAndUnleet (1).executor": "Run",
+    "JUnit.UtilsTest.cleanAndUnleet.executor": "Run",
+    "JUnit.UtilsTest.cleanAndUnleet_B_OR_B.executor": "Run",
+    "JUnit.UtilsTest.cleanAndUnleet_empty.executor": "Run",
+    "JUnit.UtilsTest.cleanAndUnleet_null.executor": "Run",
+    "JUnit.UtilsTest.cleanAndUnleet_whiteSpace.executor": "Run",
+    "JUnit.UtilsTest.onlyLettersAndWhiteSpace (1).executor": "Run",
+    "JUnit.UtilsTest.onlyLettersAndWhiteSpace.executor": "Run",
+    "JUnit.UtilsTest.onlyLettersAndWhiteSpace_empty.executor": "Run",
+    "JUnit.UtilsTest.onlyLettersAndWhiteSpace_international_Characters.executor": "Run",
+    "JUnit.UtilsTest.onlyLettersAndWhiteSpace_null.executor": "Run",
+    "JUnit.UtilsTest.onlyLettersAndWhiteSpace_whiteSpace.executor": "Run",
+    "JUnit.UtilsTest.onlyOneWhiteSpace.executor": "Run",
+    "JUnit.UtilsTest.onlyWhiteSpace.executor": "Run",
+    "JUnit.UtilsTest.removeNumbers.executor": "Run",
+    "JUnit.UtilsTest.removeSpaces.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/xsutv/Library/CloudStorage/OneDrive-Personal/Develop/Kurser/ÅR2/test/ts_library",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/src/test/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="se.yrgo.libraryapp.services" />
+      <recent name="se.yrgo.libraryapp.dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserDaoTest.getWithNullValue">
+    <configuration name="UserDaoTest.getExistingLoginInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="libraryapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.yrgo.libraryapp.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.yrgo.libraryapp.dao" />
+      <option name="MAIN_CLASS_NAME" value="se.yrgo.libraryapp.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="getExistingLoginInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.getNonExistingLoginInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="libraryapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.yrgo.libraryapp.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.yrgo.libraryapp.dao" />
+      <option name="MAIN_CLASS_NAME" value="se.yrgo.libraryapp.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="getNonExistingLoginInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.getNonExistingUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="libraryapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.yrgo.libraryapp.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.yrgo.libraryapp.dao" />
+      <option name="MAIN_CLASS_NAME" value="se.yrgo.libraryapp.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="getNonExistingUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.getWithNullValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="libraryapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.yrgo.libraryapp.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.yrgo.libraryapp.dao" />
+      <option name="MAIN_CLASS_NAME" value="se.yrgo.libraryapp.dao.UserDaoTest" />
+      <option name="METHOD_NAME" value="getWithNullValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.correctLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="libraryapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.yrgo.libraryapp.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.yrgo.libraryapp.services" />
+      <option name="MAIN_CLASS_NAME" value="se.yrgo.libraryapp.services.UserServiceTest" />
+      <option name="METHOD_NAME" value="correctLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserDaoTest.getWithNullValue" />
+        <item itemvalue="JUnit.UserServiceTest.correctLogin" />
+        <item itemvalue="JUnit.UserDaoTest.getNonExistingUser" />
+        <item itemvalue="JUnit.UserDaoTest.getNonExistingLoginInfo" />
+        <item itemvalue="JUnit.UserDaoTest.getExistingLoginInfo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d044c6a-a331-49fc-8c6a-cd70838da096" name="Changes" comment="" />
+      <created>1762415729249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762415729249</updated>
+      <workItem from="1762415730493" duration="11168000" />
+      <workItem from="1762438861927" duration="1232000" />
+      <workItem from="1762523680046" duration="5214000" />
+      <workItem from="1763711146998" duration="12280000" />
+      <workItem from="1764170841376" duration="1143000" />
+    </task>
+    <task id="LOCAL-00001" summary="first part of workshop (setup) done">
+      <option name="closed" value="true" />
+      <created>1763716801218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763716801218</updated>
+    </task>
+    <task id="LOCAL-00002" summary="moved out some functionallity from userdao to userservice">
+      <option name="closed" value="true" />
+      <created>1764171070046</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764171070046</updated>
+    </task>
+    <task id="LOCAL-00003" summary="some tests, not finished">
+      <option name="closed" value="true" />
+      <created>1764171088565</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764171088565</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first part of workshop (setup) done" />
+    <MESSAGE value="moved out some functionallity from userdao to userservice" />
+    <MESSAGE value="some tests, not finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="some tests, not finished" />
+  </component>
+</project>

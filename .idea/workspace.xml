@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d044c6a-a331-49fc-8c6a-cd70838da096" name="Changes" comment="some tests, not finished" />
+    <list default="true" id="8d044c6a-a331-49fc-8c6a-cd70838da096" name="Changes" comment="some tests, not finished">
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +31,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/yrgohrm/ts_library.git",
+    "url": "https://github.com/xzutv/ts_library",
     "accountId": "6849ad25-98c6-4852-b527-50deb0681e68"
   }
 }]]></component>
@@ -214,7 +216,7 @@
       <workItem from="1762438861927" duration="1232000" />
       <workItem from="1762523680046" duration="5214000" />
       <workItem from="1763711146998" duration="12280000" />
-      <workItem from="1764170841376" duration="1143000" />
+      <workItem from="1764170841376" duration="1862000" />
     </task>
     <task id="LOCAL-00001" summary="first part of workshop (setup) done">
       <option name="closed" value="true" />

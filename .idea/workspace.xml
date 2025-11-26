@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d044c6a-a331-49fc-8c6a-cd70838da096" name="Changes" comment="some tests, not finished">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/se/yrgo/libraryapp/validators/UsernameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/se/yrgo/libraryapp/validators/UsernameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +86,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "validator__unit__tests",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/xsutv/Library/CloudStorage/OneDrive-Personal/Develop/Kurser/ÅR2/test/ts_library",
     "node.js.detected.package.eslint": "true",
@@ -216,7 +219,7 @@
       <workItem from="1762438861927" duration="1232000" />
       <workItem from="1762523680046" duration="5214000" />
       <workItem from="1763711146998" duration="12280000" />
-      <workItem from="1764170841376" duration="1862000" />
+      <workItem from="1764170841376" duration="2078000" />
     </task>
     <task id="LOCAL-00001" summary="first part of workshop (setup) done">
       <option name="closed" value="true" />

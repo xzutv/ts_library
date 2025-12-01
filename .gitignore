@@ -1,0 +1,6 @@
+# Ignore VS Code files
+.vscode/*
+
+.idea/
+*.iml
+out/

@@ -1,11 +1,14 @@
 package se.yrgo.libraryapp.services;
 
+import java.util.Objects;
 import java.util.Optional;
 import javax.inject.Inject;
 import org.springframework.security.crypto.argon2.Argon2PasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import se.yrgo.libraryapp.dao.UserDao;
 import se.yrgo.libraryapp.entities.*;
+import se.yrgo.libraryapp.validators.RealName;
+import se.yrgo.libraryapp.validators.Username;
 
 public class UserService {
 
@@ -18,17 +21,17 @@ public class UserService {
         this.encoder = encoder;
     }
 
-    /*
-    Write some checks for null etc ..
-     */
 
     public boolean register(String name, String realname, String rawPassword) {
-        String passwordHash = encoder.encode(rawPassword);
+        if (Username.validate(name) && RealName.validate(realname)) {
+            String passwordHash = encoder.encode(rawPassword);
 
-        // handle names like Ian O'Toole
-        String cleanName = realname.replace("'", "\\'");
+            // handle names like Ian O'Toole
+            String cleanName = realname.replace("'", "\\'");
 
-        return userDao.register(name, cleanName, passwordHash);
+            return userDao.register(name, cleanName, passwordHash);
+        }
+            else return false;
     }
 
     public boolean isNameAvailable(String name) {

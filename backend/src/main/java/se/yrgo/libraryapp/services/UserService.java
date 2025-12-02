@@ -10,12 +10,32 @@ import se.yrgo.libraryapp.entities.*;
 public class UserService {
 
     private final PasswordEncoder encoder;
-    private UserDao userDao;
+    private final UserDao userDao;
 
     @Inject
     UserService(UserDao userDao, PasswordEncoder encoder) {
         this.userDao = userDao;
         this.encoder = encoder;
+    }
+
+    /*
+    Write some checks for null etc ..
+     */
+
+    public boolean register(String name, String realname, String rawPassword) {
+        String passwordHash = encoder.encode(rawPassword);
+
+        // handle names like Ian O'Toole
+        String cleanName = realname.replace("'", "\\'");
+
+        return userDao.register(name, cleanName, passwordHash);
+    }
+
+    public boolean isNameAvailable(String name) {
+        if (name == null || name.trim().length() < 3) {
+            return false;
+        }
+        return userDao.isNameAvailable(name);
     }
 
     public Optional<UserId> validate(String username, String password) {
@@ -26,7 +46,6 @@ public class UserService {
 
         LoginInfo loginInfo = maybeLoginInfo.get();
 
-        Argon2PasswordEncoder encoder = new Argon2PasswordEncoder();
         if (!encoder.matches(password, loginInfo.getPasswordHash())) {
             return Optional.empty();
         }

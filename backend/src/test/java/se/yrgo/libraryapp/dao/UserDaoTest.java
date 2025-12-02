@@ -83,4 +83,33 @@ public class UserDaoTest {
         UserDao userDao = new UserDao(ds);
         assertThat(userDao.get(username)).isEmpty();
     }
+
+    @Test
+    void get_ShouldReturnEmptyWhenSQLExceptionThrown() throws SQLException {
+        when(ds.getConnection()).thenThrow(new SQLException("Database error"));
+        UserDao userDao = new UserDao(ds);
+        assertThat(userDao.get("1")).isEmpty();
+    }
+
+    @Test
+    void get_withEmptyUsername() throws SQLException {
+        final String username = "";
+        when(ds.getConnection()).thenReturn(conn);
+        when(conn.createStatement()).thenReturn(stmt);
+        when(stmt.executeQuery(anyString())).thenReturn(rs);
+        when(rs.next()).thenReturn(false);
+        UserDao userDao = new UserDao(ds);
+        assertThat(userDao.get(username)).isEmpty();
+    }
+
+    @Test
+    void get_WithNull() throws SQLException {
+        final String username = null;
+        when(ds.getConnection()).thenReturn(conn);
+        when(conn.createStatement()).thenReturn(stmt);
+        when(stmt.executeQuery(anyString())).thenReturn(rs);
+        when(rs.next()).thenReturn(false);
+        UserDao userDao = new UserDao(ds);
+        assertThat(userDao.get(username)).isEmpty();
+    }
 }

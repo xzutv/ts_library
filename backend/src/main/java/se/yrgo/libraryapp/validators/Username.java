@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
  * I.e. no funny characters or whitespace and at least four characters long.
  */
 public final class Username {
-    private static Pattern regex = Pattern.compile("[@._a-zA-Z0-]{4,}");
+    private static final Pattern regex = Pattern.compile("^(?=.*[A-Za-z])[-@._a-zA-Z0-9]{4,30}$");
 
     private Username() {}
 

@@ -9,13 +9,14 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOf
 
 public class UsernameTest {
 
-    @Test
-    void correctUsername() {
+    @ParameterizedTest
+    @ValueSource(strings = {"b@sse", "A@._-", "ab.123", "ab3c", "test-user_123@com.com", "abc123def456ghi789jkl0longname"})
+    void correctUsername(String name) {
 
-        assertThat(Username.validate("Bosse")).isTrue();
+        assertThat(Username.validate(name)).isTrue();
     }
 
-    @ValueSource(strings = {"name with space", "123!!!||12", "ab", "ab3c"})
+    @ValueSource(strings = {"name with space", "123!!!||12", "ab", "._-@", "abc123def456ghi789jkl0longnameasdas"})
     @ParameterizedTest
     void incorrectUsername(String name) {
 
